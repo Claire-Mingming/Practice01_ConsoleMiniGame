@@ -1,0 +1,14 @@
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\bin\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.exe
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\bin\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.deps.json
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\bin\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.runtimeconfig.json
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\bin\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.runtimeconfig.dev.json
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\bin\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.dll
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\bin\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.pdb
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.csproj.AssemblyReference.cache
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.AssemblyInfoInputs.cache
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.AssemblyInfo.cs
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.csproj.CoreCompileInputs.cache
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.dll
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.pdb
+C:\C#Learning\Practice01_ConsoleMiniGame\Practice01_ConsoleMiniGame\obj\Debug\netcoreapp3.1\Practice01_ConsoleMiniGame.genruntimeconfig.cache

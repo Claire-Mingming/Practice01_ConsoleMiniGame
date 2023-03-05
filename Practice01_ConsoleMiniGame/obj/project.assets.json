@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Claire\\Desktop\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame.csproj",
+      "projectUniqueName": "C:\\C#Learning\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame.csproj",
       "projectName": "Practice01_ConsoleMiniGame",
-      "projectPath": "C:\\Users\\Claire\\Desktop\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame.csproj",
+      "projectPath": "C:\\C#Learning\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame.csproj",
       "packagesPath": "C:\\Users\\Claire\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Claire\\Desktop\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame\\obj\\",
+      "outputPath": "C:\\C#Learning\\Practice01_ConsoleMiniGame\\Practice01_ConsoleMiniGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
