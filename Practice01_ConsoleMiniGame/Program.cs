@@ -15,15 +15,14 @@ namespace Practice01_ConsoleMiniGame
             Console.SetBufferSize(width, height);
             Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.Clear();
-            int cursorX = 20, cursorY = 5;
-            Console.SetCursorPosition(cursorX,cursorY);
+            Console.SetCursorPosition(width / 2 - 10, height / 2 - 10);
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Save the princess");
             Console.WriteLine(" ");
-            Console.SetCursorPosition(25, 8);
+            Console.SetCursorPosition(width / 2 - 5, height / 2 - 7);
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Start");
-            Console.SetCursorPosition(25, 10);
+            Console.SetCursorPosition(width / 2 - 5, height / 2 - 5);
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Quit");
             Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -60,10 +59,15 @@ namespace Practice01_ConsoleMiniGame
                         break;
                     case 'P':
                     case 'p':
-                        if(b)
+                        if (b)
+                        {
+                            Console.Clear();
                             currentSceneID = 2;
-                        if (!b)
+                        }
+                        else if (!b)
+                        {
                             Environment.Exit(0);
+                        }
                         break;
                 }
             }
@@ -71,26 +75,33 @@ namespace Practice01_ConsoleMiniGame
 
             #region Switch next scene
 
-            while (true)
-            {
-                switch (currentSceneID)
-                {
-                    case 1: // start scene
-                        break;
-                    case 2: // game scene
-                        Console.Clear();
-                        break;
-                    case 3: //end scene
-                        Console.Clear();
-                        break;
-                }
-            }
+            //while (true)
+            //{
+            //    switch (currentSceneID)
+            //    {
+            //        case 1: // start scene
+            //            break;
+            //        case 2: // game scene
+            //            break;
+            //        case 3: //end scene
+            //            Console.Clear();
+            //            break;
+            //    }
+            //}
             #endregion
 
             #region Game scene
             while(currentSceneID == 2)
             {
+                for (int i = 0; i < width; i++)
+                {
+                    //for(int j = 0; j < height; j++)
+                    //{
 
+                    //}
+                    Console.SetCursorPosition(i, 0);
+                    Console.Write("■");
+                }
             }
             #endregion
         }
