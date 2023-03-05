@@ -7,11 +7,12 @@ namespace Practice01_ConsoleMiniGame
         public static bool b = true;
         static void Main(string[] args)
         {
+            #region Start scene
             // settings
-            Console.Clear();
             Console.CursorVisible = false;
-            Console.SetWindowSize(60, 30);
-            Console.SetBufferSize(60, 30);
+            int width = 60, height = 30;
+            Console.SetWindowSize(width, height);
+            Console.SetBufferSize(width, height);
             Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.Clear();
             int cursorX = 20, cursorY = 5;
@@ -27,8 +28,11 @@ namespace Practice01_ConsoleMiniGame
             Console.WriteLine("Quit");
             Console.ForegroundColor = ConsoleColor.DarkGray;
 
+            // set scene id number
+            int currentSceneID = 1;
+
             // up and down input to change color
-            while (true)
+            while (currentSceneID == 1)
             {
                 char playerInput = Console.ReadKey(true).KeyChar;
 
@@ -56,12 +60,39 @@ namespace Practice01_ConsoleMiniGame
                         break;
                     case 'P':
                     case 'p':
-                        if(!b)
+                        if(b)
+                            currentSceneID = 2;
+                        if (!b)
                             Environment.Exit(0);
                         break;
                 }
             }
+            #endregion
 
+            #region Switch next scene
+
+            while (true)
+            {
+                switch (currentSceneID)
+                {
+                    case 1: // start scene
+                        break;
+                    case 2: // game scene
+                        Console.Clear();
+                        break;
+                    case 3: //end scene
+                        Console.Clear();
+                        break;
+                }
+            }
+            #endregion
+
+            #region Game scene
+            while(currentSceneID == 2)
+            {
+
+            }
+            #endregion
         }
     }
 }
